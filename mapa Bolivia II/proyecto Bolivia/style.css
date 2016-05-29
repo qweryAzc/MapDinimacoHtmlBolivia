@@ -1,0 +1,57 @@
+body{
+	width: auto;
+	background: #ee2;
+}
+
+header{
+	text-align: center;
+	background: #570E27;
+	color: #fff;
+	
+}
+
+#mapita{
+	position: fixed;
+}
+#contenido{
+	position: absolute;
+	top: 100px;
+	right: 100px;
+	left:400px;
+
+}
+#contenido{
+	background-color: #eee;
+}
+
+
+
+#Pando, #Lp, #Oruro,#Cbba, #Sucre, #Beni, #Potosi,#Santa,#Tarija{
+	
+
+	display:block!important;
+-webkit-transition:-webkit-transform 1.5s ease;
+-moz-transition:-moz-transform 1.5s ease;
+-o-transition:-o-transform 1.5s ease;
+-ms-transition:-ms-transform 1.5s ease;
+transition:transform 1.5s ease;
+
+-webkit-transition:-webkit-transform 0.1s out;
+-moz-transition:-moz-transform 0.1s out;
+-o-transition:-o-transform 0.1s out;
+-ms-transition:-ms-transform 0.1s out;
+transition:transform 0.1s out;
+position: absolute;
+	z-index: 0;
+}
+#sinPando, #sinLp, #sinOruro,#sinCbba, #sinSucre, #sinBeni, #sinPotosi,#sinSanta,#sinTarija{
+	position: absolute;
+	z-index: -1;
+visibility: hidden;
+}
+
+#bolivia{
+	position: absolute;
+	z-index: 1;
+}
+
