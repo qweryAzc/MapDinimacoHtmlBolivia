@@ -1,4 +1,5 @@
-Estudiante: Aiza Choque Rene Wilson[qwery.azc]
+Estudiante: Aiza Choque Rene Wilson[rn3w]
 Materia: Programacion Web
 navegador: preferentemente utilizar Internet explore 
+
 modo de uso: hacer click en cada departamento 
